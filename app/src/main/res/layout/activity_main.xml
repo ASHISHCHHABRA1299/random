@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'M THINKING OF A NUMBER BETWEEN 1 AND 20."
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAN YOU GUESS IT?"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="70dp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type A Number"
+        android:inputType="numberSigned"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="93dp"
+        android:layout_height="46dp"
+        android:onClick="buttonclicked"
+        android:text="GUESS"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="190dp" />
+</RelativeLayout>
